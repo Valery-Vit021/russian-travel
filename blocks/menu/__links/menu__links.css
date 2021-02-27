@@ -1,0 +1,15 @@
+.menu__links {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+@media screen and (max-width: 320px) {
+	.menu__links {
+		min-width: calc(100% - 16px - 118px);
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-gap: 32px;
+	}
+}		
