@@ -1,35 +1,36 @@
 .cover {
-	max-width: calc(1280px - 48px*2);
-	min-height: 740px;
-	margin: 92px auto;
-	background-image: url(../../img/Group\ 6.jpg);
-	background-size: cover;
-	display: flex;
-	justify-content: center;
-	align-content: center;
+    max-width: calc(1280px - 48px*2);
+    min-height: 740px;
+    margin: 92px auto;
+    background-image: url(../../img/Group\ 6.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
+
 .cover:hover .cover__link {
-background-color: rgba(42, 44, 47, 0.8);
+    background-color: rgba(42, 44, 47, 0.8);
 }
 
 @media screen and (max-width: 1024px) {
-	.cover {	
-		max-width: 100%;
-		min-height: 640px;
-	}
+    .cover {
+        max-width: 100%;
+        min-height: 640px;
+    }
 }
 
 @media screen and (max-width: 768px) {
-	.cover {	
-		max-width: 100%;
-		min-height: 480px;
-	}
+    .cover {
+        max-width: 100%;
+        min-height: 480px;
+    }
 }
 
 @media screen and (max-width: 320px) {
-	.cover {
-		max-width: 100%;
-		min-height: 200px;
-		margin: 66px 0 64px
-	}
+    .cover {
+        max-width: 100%;
+        min-height: 200px;
+        margin: 66px 0 64px;
+    }
 }
