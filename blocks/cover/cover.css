@@ -2,15 +2,23 @@
     max-width: calc(1280px - 48px*2);
     min-height: 740px;
     margin: 92px auto;
-    background-image: url(../../img/Group\ 6.jpg);
+    background-image: url(../../img/Group6.jpg);
     background-size: cover;
     display: flex;
     justify-content: center;
     align-content: center;
+    position: relative
 }
 
-.cover:hover .cover__link {
+.cover:hover::after {
     background-color: rgba(42, 44, 47, 0.8);
+    content: '';
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -22,14 +30,12 @@
 
 @media screen and (max-width: 768px) {
     .cover {
-        max-width: 100%;
         min-height: 480px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .cover {
-        max-width: 100%;
         min-height: 200px;
         margin: 66px 0 64px;
     }

@@ -9,10 +9,6 @@
     margin-left: 18px;
 }
 
-.header__lang-link:active {
-    text-decoration: underline;
-}
-
 .header__lang-link:hover {
-    opacity: 0.3;
+    opacity: 0.8;
 }
