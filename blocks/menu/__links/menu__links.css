@@ -5,7 +5,7 @@
 }
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
 	.menu__links {
 		min-width: calc(100% - 16px - 118px);
 		display: grid;

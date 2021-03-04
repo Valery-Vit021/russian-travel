@@ -1,5 +1,4 @@
 .lead__subtitle {
-    font-family: Inter;
     font-style: normal;
     font-weight: normal;
     font-size: 30px;
@@ -9,19 +8,19 @@
     max-width: calc(100% - 172px*2);
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .lead__subtitle {
         max-width: calc(100% - 144px*2);
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .lead__subtitle {
         max-width: calc(100% - 64px*2);
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .lead__subtitle {
         max-width: calc(100% - 18px - 14px);
         font-size: 16px;
